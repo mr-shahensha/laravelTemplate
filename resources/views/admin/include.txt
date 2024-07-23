@@ -1,0 +1,23 @@
+  <?php
+        $pg="index.php";
+        include('nav.php');
+        ?>
+   <?php
+                include('header.php');
+                ?>
+
+         <?php
+            include('footer.php');
+            ?>
+
+            
+     <?php
+    include('logout-modal.php');
+    include('links.php');
+    ?>
+
+
+<?php 
+$pgTitle="Dashboard";
+?>
+    <title><?php echo $pgTitle;?></title>
