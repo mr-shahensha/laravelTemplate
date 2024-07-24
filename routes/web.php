@@ -95,6 +95,7 @@ Route::middleware(['guard'])->group(function () {
 });
 
 
+
 //login
 Route::get('login', [LogController::class, 'index']);
 Route::post('loggedIn', [LogController::class, 'loggedIn']);
